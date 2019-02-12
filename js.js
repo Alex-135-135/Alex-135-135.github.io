@@ -1,54 +1,4 @@
-<!DOCTYPE HTML>
-<html>
- <head>
-  <title>Worked-Plan</title>
-  <base target="index.html">
-  <style>
-    input[type= button] {
-    width: 100px; 
-    height: 45px;
-    font-size: 25px; 
-    margin-top: 5px;
-    outline:none;
-    border: none;
-}
-input[type= button]:hover {
-    background-color: lightgray;
-}
-.blok{
-    width: 600px;
-    height: 500px;
-    border: 3px solid red;
-}
-.left {
-   float: left;
-}
-.right {
-    float: right;
-    margin-right: 25px;
-}
-  </style>
-  <script src="js.js"></script>
- </head>  
- <body onload="plan(), worked()"> 
-    <div class="blok">
-        <div class=" width: 600px; height: 45px;">
-            <input style="float: left" type="button"  name="worked" value="Worked" OnClick="worked()" >
-            <input style="float: right" type="button" name="plan" value="Plan" OnClick="plan()" >
-        </div>
-        
-        <div style=" width: 600px; margin-top:70px;">
-            <div  class="left">
-                <p id="date"></p>
-                <ul id="worked"></ul>
-            </div>
-            <div class="right">
-                <p id="date1"></p>
-                <ul id="plan"></ul>
-            </div>
-        </div>
-<!--     <script>
-        let newdate = new Date();
+let newdate = new Date();
             date = newdate.getMonth() + 1 + '/' + newdate.getDate(),  
             //task = ['coordinating dev workflow','pull requests review','daily call','testing/assistance datasets','testing/fixing bugs'];
             tasks = ['coordinating dev workflow','pull requests review','daily call','testing/assistance'],
@@ -114,6 +64,3 @@ input[type= button]:hover {
         function random(min, max) {
             return Math.floor(Math.random() *  (max-min+1)) + min;
         }
-    </script> -->
-</body>
-</html>
