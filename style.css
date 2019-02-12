@@ -1,4 +1,4 @@
- input[type= button] {
+/* input[type= button] {
     width: 100px; 
     height: 45px;
     font-size: 25px; 
@@ -20,4 +20,92 @@ input[type= button]:hover {
 .right {
     float: right;
     margin-right: 25px;
+}*/
+body {
+    background-color: white;
+    }
+.logo{
+    height: 65px;
+    width: 1600px;
+    background-color: #f6f9f9;
+    font-family: "sans-serif";
+    color: #2d3950;
+    font-size: 30px;
+    top:0;
+    position: relative;
+    margin: auto;
+}
+.log{
+    position:absolute;
+    margin: 22 190;
+    top:0;
+    width: 65px;
+    height: 100px;
+}
+.img1{
+    width:35px; 
+    height:35px; 
+    margin: 20 150;
+}
+.logo2{
+    font-family: "sans-serif";
+    color: #2d3950;
+    font-size: 120px;
+    top:0;
+    color: white;
+    font-weight: bold;
+    position:absolute;
+        margin: 9% 38%;
+}
+.polos{
+    height: 3px;
+    width: 50%;
+    top:0;
+    background-color:#15a4fa;
+    position:absolute;
+        margin: 26%;
+}
+.logo3{
+    width:650px; 
+    height:60px; 
+    font-family: "sans-serif";
+    color: #2d3950;
+    font-size: 25px;
+    top:0;
+    color: white;
+    position:absolute;
+        margin: 28% 32%;
+}
+.buton{
+    background-color: #15a4fa;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width:210px; 
+    height:70px; 
+    top:0;
+    position:absolute;
+        margin: 36% 45%;
+        border-radius: 10px 10px 10px 10px;
+}
+.cen{
+    height: 300px;
+    width: 1600px;;
+    font-family: Arial, "sans-serif";
+
+    font-size: 30px;
+    top:0;
+    text-align: center;
+    background-color:#f6f9f9;
+    position:absolute;
+        margin: 54% auto;
+}
+.simple{
+    font-size: 40px;
+        font-weight: bold;
+}
+.design{
+    margin: auto;
+    width: 78%;
+    font-size: 25px;
 }
