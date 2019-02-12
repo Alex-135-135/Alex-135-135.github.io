@@ -1,29 +1,27 @@
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <base target="index.html">
-        <link href="style.css" rel="stylesheet">
-    <head/>
-    <body>
-        <div class="logo">
-        	<div>
-		        <img src="img/Shape.png" class="img1">
-		        <div class="log">STRICT</div>
-    		</div>
-    		<div>
-    			<img src="img/Image.png" class="img2">
-    			<div>
-    				<div class="logo2"><p>STRICT</p></div>
-    				<div class="polos"></div>
-    				<div class="logo3"><p>STRICT is a responsive theme with a a clean and minimal look.</p></div>
-    				<div class="buton"><p>Call to action</p></div>
-    			</div>
-    		</div>
-    		<div class="cen">
-    			<div class="simple"><p>Simple & pure design.</p></div>
-    			<div class="design"><p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p></div>
-    		</div>
-    	</div>
-
-    </body>
+ <head>
+  <title>Worked-Plan</title>
+  <base target="index.html">
+  <link href="style.css" rel="stylesheet">
+  <script src="js.js"></script>
+ </head>  
+ <body onload="plan(), worked()"> 
+    <div class="blok">
+        <div class=" width: 600px; height: 45px;">
+            <input style="float: left" type="button"  name="worked" value="Worked" OnClick="worked()" >
+            <input style="float: right" type="button" name="plan" value="Plan" OnClick="plan()" >
+        </div>
+        
+        <div style=" width: 600px; margin-top:70px;">
+            <div  class="left">
+                <p id="date"></p>
+                <ul id="worked"></ul>
+            </div>
+            <div class="right">
+                <p id="date1"></p>
+                <ul id="plan"></ul>
+            </div>
+        </div>
+</body>
 </html>
-
